@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstname": "sanjiv",
+      "lastname": "prajapati",
+      "email": "sanjiv@gmail.com",
+      "mobile": "758684773",
+      "salary": "200000"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
