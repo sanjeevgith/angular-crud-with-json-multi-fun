@@ -2,14 +2,36 @@
   "posts": [
     {
       "id": 1,
-      "firstname": "sanjiv",
+      "firstname": "sanjeev@gmail.com",
       "lastname": "prajapati",
-      "email": "sanjiv@gmail.com",
-      "mobile": "758684773",
-      "salary": "200000"
+      "email": "sanjeev@gmail.com",
+      "mobile": "768829932",
+      "salary": "12"
     }
   ],
-  "comments": [],
+  "signupUsers": [
+    {
+      "fullname": "sanjiv prajapati",
+      "email": "",
+      "password": "1234567",
+      "mobile": 7506066397,
+      "id": 1
+    },
+    {
+      "fullname": "sanjiv prajapati",
+      "email": "",
+      "password": "1234567890",
+      "mobile": 7598858,
+      "id": 2
+    },
+    {
+      "fullname": "sanjiv prajapati",
+      "email": "sp@gmail.com",
+      "password": "12121212",
+      "mobile": 7506066397,
+      "id": 3
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
