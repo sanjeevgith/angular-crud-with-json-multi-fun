@@ -27,10 +27,10 @@ export class EmpformpageComponent {
 
   finaldata: any
   submit() {
-    console.log(this.empform.value)
+   // console.log(this.empform.value)
     this.emp.submitdata(this.empform.value).subscribe(responseList => {
       this.finaldata = responseList
-      console.log(this.finaldata)
+      //console.log(this.finaldata)
     })
 
   }

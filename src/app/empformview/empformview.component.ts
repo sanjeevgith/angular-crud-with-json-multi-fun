@@ -21,38 +21,40 @@ export class EmpformviewComponent implements OnInit {
 
   ngOnInit(): void {
     this.formvalue = this.fb.group({
-      name: ['',[Validators.required]],
-      addr: ['',[Validators.required]],
-      city: ['',[Validators.required]]
+      name: ['', [Validators.required]],
+      addr: ['', [Validators.required]],
+      city: ['', [Validators.required]]
     })
     this.alldata();
   }
 
   Editresponse: any
   editclick() {
-
     this.employeeModelObj.name = this.formvalue.value.name;
     this.employeeModelObj.addr = this.formvalue.value.addr;
     this.employeeModelObj.city = this.formvalue.value.city;
-    console.log(this.employeeModelObj, "modelclickdata")
+    // console.log(this.employeeModelObj, "modelclickdata")
     this.emp.updateEmp(this.employeeModelObj, this.employeeModelObj.id).subscribe((response) => {
       this.Editresponse = response;
+      this.formvalue.reset()
+      this.ngOnInit();
     })
-
-
   }
+
+
 
   onEdit(row: any) {
     this.employeeModelObj.id = row.id;
     this.formvalue.controls['name'].setValue(row.name);
     this.formvalue.controls['addr'].setValue(row.address.addr);
     this.formvalue.controls['city'].setValue(row.address.city);
+    
   }
 
   finalresponse: any
   onDelete(row: any) {
     this.emp.delEmp(row.id).subscribe(responseList => {
-      // alert("Emp Deleted")
+      alert("Emp Deleted")
       this.ngOnInit()
     })
   }
@@ -64,7 +66,7 @@ export class EmpformviewComponent implements OnInit {
   alldata() {
     this.emp.getalldata().subscribe((response) => {
       for (let i = 0; i < response.response.length; i++) {
-        console.log(response.response)
+        //console.log(response.response)
         this.temp = response.response
       }
     })

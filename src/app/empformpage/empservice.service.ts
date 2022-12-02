@@ -17,7 +17,7 @@ export class EmpserviceService {
   // firstnodejsproject for backend
 
   submitdata(data: any) {
-    console.log(data)
+    //console.log(data)
     return this.http.post("http://localhost:3000/api/emp/add_emp", data)
   }
 
@@ -30,12 +30,12 @@ export class EmpserviceService {
 
 
   updateEmp(data: any, id: number) {
-    console.log(data, id)
+    //console.log(data, id)
     return this.http.patch("http://localhost:3000/api/emp/update_emp/"+ id, data)
   }
 
   delEmp(id: number) {
-    console.log(id, "deleteID")
+    //console.log(id, "deleteID")
     return this.http.delete("http://localhost:3000/api/emp/delete_emp/" + id)
   }
 
