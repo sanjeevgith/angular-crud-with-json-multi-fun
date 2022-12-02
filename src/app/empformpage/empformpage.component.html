@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <form [formGroup]="empform" >
+                <div class="mt-3">
+                    <div class="text-center">
+                        <h2>
+                            <label for="">Employee Form</label>
+                        </h2>
+                    </div>
+
+                </div>
+                <div class="mt-3">
+                    <label class="form-label"><b>Name</b></label>
+                    <input type="text" formControlName="name" class="form-control" id="name" placeholder="name">
+                </div>
+                <div class="mt-3">
+                    <label class="form-label"><b>Address</b></label>
+                    <input type="text" formControlName="addr" class="form-control" id="addr" placeholder="addr">
+                    <input type="text" formControlName="city" class="form-control" id="city" placeholder="city">
+
+                </div>
+                <div class="mt-3">
+                    <button type="submit" class="btn btn-success mb-1"><a routerLink="/empview" (click)="submit()" style="color: white;" class="success">Submit</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

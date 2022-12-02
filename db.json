@@ -32,6 +32,24 @@
       "id": 3
     }
   ],
+  "signupEmp": [
+    {
+      "fullname": "demo",
+      "mobile": 12,
+      "id": 1
+    },
+    {
+      "fullname": "sanjiv prajapati",
+      "mobile": 121212,
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
