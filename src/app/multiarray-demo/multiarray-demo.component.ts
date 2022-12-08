@@ -36,26 +36,20 @@ export class MultiarrayDemoComponent {
 
   finalnom: any
   finaladdr: any
+  temp1: any
   dataarray1() {
     this.multiservice.getallmultiarraydata1().subscribe((responseList) => {
-      var demo = [];
-      //for (let i = 0; i < responseList.length; i++) {
+
+      this.temp1 = responseList;
+      console.log(this.temp1)
 
       var employeeIds = responseList.map((addrdata: any) => addrdata.address);
-      console.log(employeeIds)
-
       this.finaladdr = employeeIds
-
+      //console.log(this.finaladdr)
 
       var employeeNo = responseList.map((nominyee: any) => nominyee.address[0].nominyee);
-      console.log(employeeNo)
-
       this.finalnom = employeeNo
-
-
-
-
-      // }
+      //console.log(this.finalnom)
     })
   }
 
