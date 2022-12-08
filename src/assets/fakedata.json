@@ -1,0 +1,64 @@
+{
+    "data": [
+      {
+        "fullname": "Monto prajapati",
+        "email": "",
+        "password": "1234567",
+        "mobile": 7506066232,
+        "id": 1,
+        "address":[
+            {
+                "addr":"uahushau",
+                "addr1":"dewde",
+                "city":"dedede",
+                "nominyee":[
+                    {
+                        "nname":"nominyee",
+                        "naddr":"swvsgwvgsvw"
+                    }
+                ]
+            }
+        ]
+      },
+      {
+        "fullname": "prajapati",
+        "email": "ddwdw@gmail.com",
+        "password": "1234567890",
+        "mobile": 7598858,
+        "id": 2,
+        "address":[
+            {
+                "addr":"uahushau",
+                "addr1":"dewde",
+                "city":"dedede",
+                "nominyee":[
+                    {
+                        "nname":"nominyee",
+                        "naddr":"swvsgwvgsvw"
+                    }
+                ]
+            }
+        ]
+      },
+      {
+        "fullname": "sanjiv prajapati",
+        "email": "sp@gmail.com",
+        "password": "12121212",
+        "mobile": 7506066397,
+        "id": 3,
+        "address":[
+            {
+                "addr":"uahushau",
+                "addr1":"dewde",
+                "city":"dedede",
+                "nominyee":[
+                    {
+                        "nname":"nominyee",
+                        "naddr":"swvsgwvgsvw"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }

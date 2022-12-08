@@ -42,15 +42,73 @@
       "fullname": "sanjiv prajapati",
       "mobile": 121212,
       "id": 2
-    },
-    {
-      "id": 3
-    },
-    {
-      "id": 4
     }
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "data": [
+    {
+      "fullname": "prajapati",
+      "email": "ddwdw@gmail.com",
+      "password": "1234567890",
+      "mobile": 7598858,
+      "id": 2,
+      "address": [
+        {
+          "addr": "uahushau",
+          "addr1": "dewde",
+          "city": "dedede",
+          "nominyee": [
+            {
+              "nname": "nominyee",
+              "naddr": "swvsgwvgsvw"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data1": [
+    {
+      "fullname": "prajapati",
+      "email": "ddwdw@gmail.com",
+      "password": "1234567890",
+      "mobile": 7598858,
+      "id": 2,
+      "address": [
+        {
+          "addr": "uahushau",
+          "addr1": "dewde",
+          "city": "dedede",
+          "nominyee": [
+            {
+              "nname": "nominyee",
+              "naddr": "swvsgwvgsvw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullname": "sanjiv prajapati",
+      "email": "sp@gmail.com",
+      "password": "12121212",
+      "mobile": 7506066397,
+      "id": 3,
+      "address": [
+        {
+          "addr": "dewhdewdfewtfdtewyfdewtydfety",
+          "addr1": "dewdewdewdewdewdewdewdewd",
+          "city": "dedede",
+          "nominyee": [
+            {
+              "nname": "nom 1new",
+              "naddr": "swvsgwvgsvw"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

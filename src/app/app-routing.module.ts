@@ -5,6 +5,7 @@ import { EmpformviewComponent } from './empformview/empformview.component';
 import { EmployeeDashboardComponent } from './employee-dashboard/employee-dashboard.component';
 
 import { LoginComponent } from './login/login.component';
+import { MultiarrayDemoComponent } from './multiarray-demo/multiarray-demo.component';
 import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path:'empview',
     component:EmpformviewComponent
+  },
+  {
+    path:'multiarray',
+    component:MultiarrayDemoComponent
   }
  
 ];

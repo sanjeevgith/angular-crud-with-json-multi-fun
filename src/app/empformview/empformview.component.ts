@@ -48,7 +48,7 @@ export class EmpformviewComponent implements OnInit {
     this.formvalue.controls['name'].setValue(row.name);
     this.formvalue.controls['addr'].setValue(row.address.addr);
     this.formvalue.controls['city'].setValue(row.address.city);
-    
+
   }
 
   finalresponse: any

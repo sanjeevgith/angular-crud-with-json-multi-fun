@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { EmpformpageComponent } from './empformpage/empformpage.component';
 import { EmpformviewComponent } from './empformview/empformview.component';
+import { MultiarrayDemoComponent } from './multiarray-demo/multiarray-demo.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { EmpformviewComponent } from './empformview/empformview.component';
     LoginComponent,
     SignupComponent,
     EmpformpageComponent,
-    EmpformviewComponent
+    EmpformviewComponent,
+    MultiarrayDemoComponent
   ],
   imports: [
     BrowserModule,
