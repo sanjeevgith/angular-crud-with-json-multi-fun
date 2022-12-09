@@ -40,5 +40,9 @@ export class EmpserviceService {
   }
 
 
+  getarraydata():Observable<any>{
+    return this.http.get("http://localhost:3000/api/MultiData/get_multiarray")
+  }
+
 
 }

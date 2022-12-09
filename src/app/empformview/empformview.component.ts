@@ -26,6 +26,7 @@ export class EmpformviewComponent implements OnInit {
       city: ['', [Validators.required]]
     })
     this.alldata();
+    this.arraydataFun();
   }
 
   Editresponse: any
@@ -72,6 +73,17 @@ export class EmpformviewComponent implements OnInit {
     })
   }
 
+
+  arraydata:any;
+
+  arraydataFun(){
+    this.emp.getarraydata().subscribe((responseList)=>{
+      for (let i = 0; i < responseList.r.length; i++) {
+        this.arraydata = responseList.r;
+    
+      }
+    })
+  }
 
 
 

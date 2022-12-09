@@ -1,38 +1,39 @@
-<p>multiarray-demo works!</p>
+<body style="background-color: powderblue;">
+    <div class="container" style="padding: 10px;">
+        <table class="table" style="border: 1px solid;">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">Mobile</th>
+                    <th scope="col">Addr</th>
+                    <th scope="col">Addr1</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Nominee Name</th>
+                    <th scope="col">Nominee Addr</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr *ngFor="let data of temp">
+                    <td>{{data.id}}</td>
+                    <td>{{data.fullname}}</td>
+                    <td>{{data.email}}</td>
+                    <td>{{data.password}}</td>
+                    <td>{{data.mobile}}</td>
+                    <td>{{data.address[0].addr}}</td>
+                    <td>{{data.address[0].addr1}}</td>
+                    <td>{{data.address[0].city}}</td>
+                    <td>{{data.address[0].nominee[0].nname}}</td>
+                    <td>{{data.address[0].nominee[0].naddr}}</td>
+                </tr>
 
+            </tbody>
+        </table>
+    </div>
+</body>
 
-
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Password</th>
-            <th scope="col">Mobile</th>
-            <th scope="col">Addr</th>
-            <th scope="col">Addr1</th>
-            <th scope="col">City</th>
-            <th scope="col">Nominyee Name</th>
-            <th scope="col">Nominyee Addr</th>
-        </tr>
-    </thead>
-    <tbody class="table-group-divider">
-        <tr *ngFor="let data of temp">
-            <td>{{data.id}}</td>
-            <td>{{data.fullname}}</td>
-            <td>{{data.email}}</td>
-            <td>{{data.password}}</td>
-            <td>{{data.mobile}}</td>
-            <td>{{data.address[0].addr}}</td>
-            <td>{{data.address[0].addr1}}</td>
-            <td>{{data.address[0].city}}</td>
-            <td>{{data.address[0].nominyee[0].nname}}</td>
-            <td>{{data.address[0].nominyee[0].naddr}}</td>
-        </tr>
-        
-    </tbody>
-</table>
 
 
 <!-- <table class="table">

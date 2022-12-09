@@ -7,6 +7,14 @@
       "email": "sanjeev@gmail.com",
       "mobile": "768829932",
       "salary": "12"
+    },
+    {
+      "id": 2,
+      "firstname": "monto",
+      "lastname": "kumar",
+      "email": "monto@gmail.com",
+      "mobile": "3123231313",
+      "salary": "13123123"
     }
   ],
   "signupUsers": [
@@ -59,9 +67,9 @@
           "addr": "powai",
           "addr1": "iit",
           "city": "mum",
-          "nominyee": [
+          "nominee": [
             {
-              "nname": "nominyee",
+              "nname": "nominee",
               "naddr": "swvsgwvgsvw"
             }
           ]
